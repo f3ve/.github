@@ -1,0 +1,67 @@
+name: Bug Report
+description: Report a bug
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: | 
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: bug-description
+    attributes:
+      label: Describe the bug
+      placeholder: Bug description...
+      description: Please provide a concise description of the bug you are experiencing.
+    validations:
+      required: true
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Describe the expected behavior
+      placeholder: Expected behavior...
+      desciption: Please provide a concise description of what you were expecting to happen.
+    validations:
+      required: true
+  - type: input
+    id: reproduction
+    attributes:
+      label: Reproduction URL
+      placeholder: https://...
+      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. See this post by [@antfu](https://github.com/antfu) for [*wWhy & how?**](https://antfu.me/posts/why-reproductions-are-required).
+    validations:
+      required: true
+  - type: textarea
+    id: system-info
+    attributes:
+      label: System Info
+      placeholder: Please paste the output of `npx envinfo --system --binaries --browsers
+    validations:
+      required: true
+  - type: dropdown
+    id: package-manager
+    attributes:
+      label: Used Package Manager
+      description: Select the used package manager.
+      options:
+        - npm
+        - yarn
+        - pnpm
+        - bun
+        - n/a
+    validations:
+      required: true
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: Requirements
+      description: Please make sure you have done the following before submitting the issue.
+      options:
+        - label: Ensure you have followed our code of conduct.
+          required: true
+        - label: Read the contribution guide.
+          required: true
+        - label: Searched for an existing issue that reports this bug to avoid creating a duplicate.
+          required: true
+        - label: Checked that this is an actual bug. For Q&A please open a Github discussion.
+          required: true
+      
