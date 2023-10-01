@@ -27,7 +27,7 @@ body:
     attributes:
       label: Reproduction URL
       placeholder: https://...
-      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. See this post by [@antfu](https://github.com/antfu) for [*wWhy & how?**](https://antfu.me/posts/why-reproductions-are-required).
+      description: A [minimal reproduction](https://stackoverflow.com/help/minimal-reproducible-example) is **required**, otherwise the issue might be closed without further notice. See this post by [@antfu](https://github.com/antfu) for [*why & how?**](https://antfu.me/posts/why-reproductions-are-required).
     validations:
       required: true
   - type: textarea
