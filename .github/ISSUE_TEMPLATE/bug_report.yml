@@ -51,17 +51,29 @@ body:
     validations:
       required: true
   - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue you agree to follow out [Code of Conduct](/CODE_OF_CONDUCT.md)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: checkboxes
+    id: contributions guide
+    attributes:
+      label: Contribution Guide
+      description: Before submitting this issue, please read our [Contribution Guide](/CONTRIBUTING.md)
+      options:
+        - label: I have read the Contributing Guide
+          required: true
+  - type: checkboxes
     id: validations
     attributes:
-      label: Requirements
-      description: Please make sure you have done the following before submitting the issue.
+      label: Validation Steps.
+      description: Before submitting this issue, ensure you have completed all the steps below
       options:
-        - label: Ensure you have followed our code of conduct.
+        - label: I confirm this is a bug and not a request for support or Q&A.
           required: true
-        - label: Read the contribution guide.
+        - label: I have searched existing issues to confirm this bug has not yet been reported.
           required: true
-        - label: Searched for an existing issue that reports this bug to avoid creating a duplicate.
-          required: true
-        - label: Checked that this is an actual bug. For Q&A please open a Github discussion.
-          required: true
-      
+  
