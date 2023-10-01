@@ -1,5 +1,5 @@
 name: Feature proposal
-about: Propose a new feature
+description: Propose a new feature
 labels: ['enhancement']
 body:
   - type: markdown
