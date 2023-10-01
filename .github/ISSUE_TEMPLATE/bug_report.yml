@@ -19,7 +19,7 @@ body:
     attributes:
       label: Describe the expected behavior
       placeholder: Expected behavior...
-      desciption: Please provide a concise description of what you were expecting to happen.
+      description: Please provide a concise description of what you were expecting to happen.
     validations:
       required: true
   - type: input
