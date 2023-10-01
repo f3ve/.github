@@ -2,7 +2,7 @@
 
 Hey :wave:, thanks for your interest in contributing to one of my projects. I like to keep it simple and reduce the amount of hoops people need to jump through. That being said I do have a couple of rules.
 
-## Code Style
+## 🎨 Code Style
 All my NodeJS and JavaScript projects use [ESlint](https://duckduckgo.com/?q=ESLint&t=newext&atb=v378-1&ia=web) and [Prettier](https://prettier.io/). I have an [eslint-config module](https://github.com/f3ve/eslint-config) that most of my projects will use. In general just make sure you have the ESLint and Prettier plugins for your particular IDE installed and let them autoformat your code and you should be good to go.
 
 ## 🎉 Submitting a Pull Request
