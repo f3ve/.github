@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contrubition Guide
+    url: https://github.com/f3ve/.github/blob/main/CONTRIBUTING.md
+    about: Please read before making contributions.
+  - name: Code of Conduct
+    url: https://github.com/f3ve/.github/blob/main/CODE_OF_CONDUCT.md
+    about: Please read before making contributions.
