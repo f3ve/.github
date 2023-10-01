@@ -1,0 +1,58 @@
+name: Feature proposal
+about: Propose a new feature
+labels: ['enhancement']
+body:
+  - type: markdown
+    attributes: |
+      Thanks for your interest in this project and taking the time to fill out this feature proposal!
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: The Problem
+      description: Please provide a clear and concise description of the problem you want to solve with this feature proposal. If you intend to submit a PR for this issue, please tell us in the description.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      placeholder: In module foo we could implement bar...
+      description: Please provide a clear and concise description of your proposed solution to solve the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: alternative
+    attributes:
+      label: Alternative Solution
+      placeholder: Alternatively in module bar we could implement foo...
+      description: Please provide a clear and concise description of your any alternative solutions you have considered, if applicable.
+  - type: textarea
+    id: addition-information
+    attributes:
+      label: Additional Information
+      description: Please provide any additional information you'd like to share in regards to the feature request.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue you agree to follow our [Code of Conduct](https://github.com/f3ve/.github/blob/main/CODE_OF_CONDUCT.md).
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
+  - type: checkboxes
+    id: contributions-guide
+    attributes:
+      label: Contribution Guide
+      description: Before submitting this issue, please read our [Contribution Guide](https://github.com/f3ve/.github/blob/main/CONTRIBUTING.md).
+      options:
+        - label: I have read the Contributing Guide
+          required: true
+  - type: checkboxes
+    id: validations
+    attributes:
+      label: Validation Steps
+      description: Before submitting this issue, ensure you have completed all the steps below.
+      options:
+        - label: I have searched existing issues to confirm this feature has not yet been requested.
+          required: true
+    
