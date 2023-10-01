@@ -34,7 +34,7 @@ body:
     id: system-info
     attributes:
       label: System Info
-      placeholder: Please paste the output of `npx envinfo --system --binaries --browsers
+      placeholder: Please paste the output of `npx envinfo --system --binaries --browsers`.
     validations:
       required: true
   - type: dropdown
@@ -54,7 +54,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue you agree to follow out [Code of Conduct](/CODE_OF_CONDUCT.md)
+      description: By submitting this issue you agree to follow out [Code of Conduct](/CODE_OF_CONDUCT.md).
       options:
         - label: I agree to follow this project's Code of Conduct
           required: true
@@ -62,7 +62,7 @@ body:
     id: contributions-guide
     attributes:
       label: Contribution Guide
-      description: Before submitting this issue, please read our [Contribution Guide](/CONTRIBUTING.md)
+      description: Before submitting this issue, please read our [Contribution Guide](/CONTRIBUTING.md).
       options:
         - label: I have read the Contributing Guide
           required: true
@@ -70,7 +70,7 @@ body:
     id: validations
     attributes:
       label: Validation Steps.
-      description: Before submitting this issue, ensure you have completed all the steps below
+      description: Before submitting this issue, ensure you have completed all the steps below.
       options:
         - label: I confirm this is a bug and not a request for support or Q&A.
           required: true
