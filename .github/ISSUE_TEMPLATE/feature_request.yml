@@ -25,7 +25,7 @@ body:
     id: alternative
     attributes:
       label: Alternative Solution
-      placeholder: Alternatively in module bar we could implement foo...
+      placeholder: Alternatively, in module bar we could implement foo...
       description: Please provide a clear and concise description of your any alternative solutions you have considered, if applicable.
   - type: textarea
     id: addition-information
