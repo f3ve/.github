@@ -59,7 +59,7 @@ body:
         - label: I agree to follow this project's Code of Conduct
           required: true
   - type: checkboxes
-    id: contributions guide
+    id: contributions-guide
     attributes:
       label: Contribution Guide
       description: Before submitting this issue, please read our [Contribution Guide](/CONTRIBUTING.md)
