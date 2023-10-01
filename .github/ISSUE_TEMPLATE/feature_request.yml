@@ -3,8 +3,9 @@ about: Propose a new feature
 labels: ['enhancement']
 body:
   - type: markdown
-    attributes: |
-      Thanks for your interest in this project and taking the time to fill out this feature proposal!
+    attributes: 
+      value: |
+        Thanks for your interest in this project and taking the time to fill out this feature proposal!
   - type: textarea
     id: feature-description
     attributes:
