@@ -17,4 +17,4 @@ Please use [convential commits](https://www.conventionalcommits.org/en/v1.0.0/) 
 Please give your PR a title that follows [convential commits](https://www.conventionalcommits.org/en/v1.0.0/)
 
 ### PR format
-Please use the provided PR template for the specific project you are contributing to. Generally they will use [./github/PULL_REQUEST_TEMPLATE.md].
+Please use the provided PR template for the specific project you are contributing to. Generally they will use this [PR template](https://github.com/f3ve/.github/blob/main/.github/PULL_REQUEST_TEMPLATE.md).
